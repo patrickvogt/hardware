@@ -1,0 +1,1 @@
+start with SYS 2049 after loading hello.prg
