@@ -2,3 +2,7 @@
 
 /c64/asm/helloworld/dist/hello.prg
 /c64/basic/helloworld/dist/hello.prg
+/c64/asm/cc65/helloworld/obj/main.o
+/c64/asm/cc65/helloworld/dist/hello.prg
+
+/c64/basic/petcat/helloworld/dist/hello.prg
