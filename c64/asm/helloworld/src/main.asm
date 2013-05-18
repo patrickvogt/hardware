@@ -8,6 +8,6 @@ loop:   lda hello,y
         jsr $FFD2
         iny
         jmp loop
-done:   brk
+done:   rts
 
 hello:	.byte "HALLO WELT",0
