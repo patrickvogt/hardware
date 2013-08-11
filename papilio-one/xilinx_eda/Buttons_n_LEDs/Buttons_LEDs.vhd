@@ -19,9 +19,14 @@ architecture Behavioral of Buttons_LEDs is
 
 begin
 	-- assign Buttons and LEDs
-	LED_1 <= DPAD_LEFT;
-	LED_2 <= DPAD_UP;
-	LED_3 <= DPAD_RIGHT;
-	LED_4 <= DPAD_DOWN;
+--	LED_1 <= DPAD_LEFT;
+--	LED_2 <= DPAD_UP;
+--	LED_3 <= DPAD_RIGHT;
+--	LED_4 <= DPAD_DOWN;
+	
+	LED_1 <= NOT DPAD_LEFT;
+	LED_2 <= DPAD_UP AND DPAD_RIGHT;
+	LED_3 <= '1' OR DPAD_DOWN;
+	LED_4 <= '0';
 end Behavioral;
 
