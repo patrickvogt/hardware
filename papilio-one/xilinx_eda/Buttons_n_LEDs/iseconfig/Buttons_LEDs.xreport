@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-08-11T19:26:01</DateModified>
+  <DateModified>2013-08-11T19:37:34</DateModified>
   <ModuleName>Buttons_LEDs</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/pvogt001/Desktop/hardware/papilio-one/xilinx_eda/Buttons_n_LEDs/iseconfig/Buttons_LEDs.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/pvogt001/Desktop/hardware/papilio-one/xilinx_eda/Buttons_n_LEDs</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/pvogt001/Desktop/hardware/papilio-one/xilinx_eda/Buttons_n_LEDs\</ImplementationReportsDirectory>
   <DateInitialized>2013-08-11T19:26:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
