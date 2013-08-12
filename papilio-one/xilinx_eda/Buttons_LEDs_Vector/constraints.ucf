@@ -1,0 +1,15 @@
+# Arcade MegaWing
+# for PIN outlets see: http://papilio.cc/index.php?n=Playground.PapilioPinouts
+#  or: http://forum.gadgetfactory.net/index.php?/files/file/6-arcade-megawing-papilio-propapilio-one/
+
+# Pins of the DPAD
+NET DPAD(3)  LOC = "P58" | IOSTANDARD=LVTTL;
+NET DPAD(2)    LOC = "P54" | IOSTANDARD=LVTTL;
+NET DPAD(1) LOC = "P36" | IOSTANDARD=LVTTL;
+NET DPAD(0)  LOC = "P41" | IOSTANDARD=LVTTL;
+
+# Pins of the LEDs
+NET LED_1(3) LOC = "P57" | IOSTANDARD=LVTTL;
+NET LED_2(2) LOC = "P53" | IOSTANDARD=LVTTL;
+NET LED_3(1) LOC = "P40" | IOSTANDARD=LVTTL;
+NET LED_4(0) LOC = "P35" | IOSTANDARD=LVTTL;
