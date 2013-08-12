@@ -8,5 +8,8 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/pvogt001/Desktop/hardware/papilio-one/xilinx_eda/Buttons_LEDs_Vector/Buttons_LEDs_Vector.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

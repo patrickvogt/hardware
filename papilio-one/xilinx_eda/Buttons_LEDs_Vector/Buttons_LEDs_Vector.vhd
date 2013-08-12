@@ -10,6 +10,7 @@ end Buttons_LEDs_Vector;
 architecture Behavioral of Buttons_LEDs_Vector is
 
 begin
-		LED <= DPAD;
+		--LED <= DPAD;
+		LED <= "1111";
 end Behavioral;
 
