@@ -107,7 +107,9 @@
     <transform xil_pn:end_ts="1376776100" xil_pn:in_ck="3443188727083585756" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4456278939529725974" xil_pn:start_ts="1376776082">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Addition.lso"/>
       <outfile xil_pn:name="Addition.ngc"/>
@@ -129,6 +131,7 @@
     <transform xil_pn:end_ts="1376776109" xil_pn:in_ck="-5808048259724419882" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3755404367054475322" xil_pn:start_ts="1376776100">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Addition.bld"/>
       <outfile xil_pn:name="Addition.ngd"/>
       <outfile xil_pn:name="Addition_ngdbuild.xrpt"/>
@@ -138,6 +141,9 @@
     <transform xil_pn:end_ts="1376776120" xil_pn:in_ck="-334044876637076809" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1697458369411087007" xil_pn:start_ts="1376776109">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Addition.pcf"/>
       <outfile xil_pn:name="Addition_map.map"/>
       <outfile xil_pn:name="Addition_map.mrp"/>
@@ -151,6 +157,7 @@
     <transform xil_pn:end_ts="1376776139" xil_pn:in_ck="5990578594574407216" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1376776120">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Addition.ncd"/>
       <outfile xil_pn:name="Addition.pad"/>
       <outfile xil_pn:name="Addition.par"/>
@@ -165,6 +172,7 @@
     <transform xil_pn:end_ts="1376776168" xil_pn:in_ck="3443188727083576879" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1376776151">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Addition.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="addition.bgn"/>
@@ -177,6 +185,7 @@
     <transform xil_pn:end_ts="1376776139" xil_pn:in_ck="-3479472569493849421" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1376776134">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Addition.twr"/>
       <outfile xil_pn:name="Addition.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
