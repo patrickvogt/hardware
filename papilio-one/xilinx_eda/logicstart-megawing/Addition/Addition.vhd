@@ -4,43 +4,43 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Addition is
 	Port( 
-			-- DPAD Buttons
-			DPAD : in STD_LOGIC_VECTOR(3 downto 0);
+			-- Switches
+			Switch : in STD_LOGIC_VECTOR(7 downto 0);
 			-- LED array
-			LED : out STD_LOGIC_VECTOR(3 downto 0)
+			LED : out STD_LOGIC_VECTOR(7 downto 0)
 		 );
 end Addition;
 
 architecture Behavioral of Addition is
---	-- signal for input number x (2 bit)
---	signal x : STD_LOGIC_VECTOR(1 downto 0);
---	-- signal for input number y (2 bit)
---	signal y : STD_LOGIC_VECTOR(1 downto 0);
---	-- signal for carries of addition (2 bit but shifted one bit to the left)
---	signal carry : STD_LOGIC_VECTOR(1 downto 0);
---	-- result of the addition (3 bit)
---	signal result : STD_LOGIC_VECTOR(2 downto 0);
+--	-- signal for input number x (4 bit)
+--	signal x : STD_LOGIC_VECTOR(3 downto 0);
+--	-- signal for input number y (4 bit)
+--	signal y : STD_LOGIC_VECTOR(3 downto 0);
+--	-- signal for carries of addition (4 bit but shifted one bit to the left)
+--	signal carry : STD_LOGIC_VECTOR(3 downto 0);
+--	-- result of the addition (5 bit)
+--	signal result : STD_LOGIC_VECTOR(4 downto 0);
 
 	-- use numeric_std
-	signal x: unsigned(1 downto 0);
-	signal y: unsigned(1 downto 0);
-	signal result: unsigned(2 downto 0);
+	signal x: unsigned(3 downto 0);
+	signal y: unsigned(3 downto 0);
+	signal result: unsigned(4 downto 0);
 begin
----- assign rsult to the 4 LED array (and disable LED for the MSB)
+---- assign result to the 8 LED array (and disable the three LEDs for the MSB)
 -- -- & is used for concatenation in VHDL
--- LED <= "0" & result;
--- -- input number x (2 bit) will be two buttons 
--- x <= DPAD(1 downto 0);
--- -- inout number y (2 bit) will be the other two buttons
--- y <= DPAD(3 downto 2);
+-- LED <= "000" & result;
+-- -- input number x (4 bit) will be two buttons 
+-- x <= Switch(3 downto 0);
+-- -- inout number y (4 bit) will be the other two buttons
+-- y <= Switch(3 downto 2);
 
- -- assign rsult to the 4 LED array (and disable LED for the MSB)
+ -- assign result to the 8 LED array (and disable the three LEDs for the MSB)
  -- & is used for concatenation in VHDL
- LED <= "0" & std_logic_vector(result);
+ LED <= "000" & std_logic_vector(result);
  -- input number x (2 bit) will be two buttons 
- x <= unsigned(DPAD(1 downto 0));
+ x <= unsigned(Switch(3 downto 0));
  -- inout number y (2 bit) will be the other two buttons
- y <= unsigned(DPAD(3 downto 2));
+ y <= unsigned(Switch(7 downto 4));
  
  -- calculation logic
  
