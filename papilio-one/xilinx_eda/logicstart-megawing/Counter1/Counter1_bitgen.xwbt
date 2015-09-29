@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\patrickvogt\Desktop\hardware\papilio-one\xilinx_eda\logicstart-megawing\Counter1\Counter1.ncd
-OUTFILE=C:\Users\patrickvogt\Desktop\hardware\papilio-one\xilinx_eda\logicstart-megawing\Counter1\Counter1.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4vq100
-WORKINGDIR=C:\Users\patrickvogt\Desktop\hardware\papilio-one\xilinx_eda\logicstart-megawing\Counter1
-LICENSE=WebPack
-USER_INFO=__0_0_0
