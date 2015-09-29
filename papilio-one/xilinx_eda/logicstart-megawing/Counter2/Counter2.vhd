@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity Counter2 is
 	Port( 
 			-- Switches
-			Switch : in STD_LOGIC_VECTOR(7 downto 0);
+			Switch : in STD_LOGIC_VECTOR(0 downto 0);
 			-- LED array
 			LED : out STD_LOGIC_VECTOR(7 downto 0);
 			-- clock signal
